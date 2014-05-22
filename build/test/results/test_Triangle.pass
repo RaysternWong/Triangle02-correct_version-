@@ -1,0 +1,31 @@
+---
+:source:
+  :path: test
+  :file: test_Triangle.c
+:successes:
+- :test: test_getTriangleName_given_2_2_3_should_return_isoscales
+  :line: 10
+  :message: ''
+- :test: test_getTriangleName_given_2_3_3_should_return_isoscales
+  :line: 18
+  :message: ''
+- :test: test_getTriangleName_given_3_2_3_should_return_isoscales
+  :line: 26
+  :message: ''
+- :test: test_getTriangleName_given_1_2_3_should_return_scalene
+  :line: 35
+  :message: ''
+- :test: test_getTraingleName_given_3_3_3_should_return_equilateral
+  :line: 44
+  :message: ''
+- :test: test_getTraingleName_given_1_1_3_should_return_invalid
+  :line: 52
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 6
+  :passed: 6
+  :failed: 0
+  :ignored: 0
+:stdout: []
